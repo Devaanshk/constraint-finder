@@ -1,0 +1,2695 @@
+{
+ "repo": "microsoft/semantic-kernel",
+ "days": 90,
+ "captured_at": "2026-09-29T00:23:47.233765+00:00",
+ "records": [
+  {
+   "number": 14477,
+   "title": ".NET: Upgrade Git build dependency",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14477",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-09-24T17:22:41+00:00",
+   "ready_at": "2026-09-24T17:22:41+00:00",
+   "first_commit_at": "2026-09-24T17:20:20+00:00",
+   "merged_at": "2026-09-28T17:47:57+00:00",
+   "additions": 1,
+   "deletions": 1,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-24T17:24:27+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-28T11:25:42+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14411,
+   "title": "Replace workflow PAT usage with GitHub App authentication",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14411",
+   "author": "moonbox3",
+   "is_bot": false,
+   "created_at": "2026-09-11T03:18:37+00:00",
+   "ready_at": "2026-09-11T03:25:12+00:00",
+   "first_commit_at": "2026-09-11T03:16:47+00:00",
+   "merged_at": "2026-09-11T06:58:37+00:00",
+   "additions": 593,
+   "deletions": 10,
+   "changed_files": 7,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-11T03:29:41+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-11T03:29:49+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-11T06:14:58+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-11T06:53:45+00:00"
+    }
+   ]
+  },
+  {
+   "number": 13703,
+   "title": "Python: Add User-Agent to google-genai",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/13703",
+   "author": "markmcd",
+   "is_bot": false,
+   "created_at": "2026-03-24T09:23:41+00:00",
+   "ready_at": "2026-03-24T09:23:41+00:00",
+   "first_commit_at": "2026-03-24T09:01:53+00:00",
+   "merged_at": "2026-09-09T06:03:58+00:00",
+   "additions": 211,
+   "deletions": 6,
+   "changed_files": 5,
+   "reviews": [
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-03-24T09:26:38+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-04-21T01:00:44+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-08T05:53:02+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-09T05:56:06+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14374,
+   "title": "SessionsPythonPlugin bug fix",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14374",
+   "author": "westey-m",
+   "is_bot": false,
+   "created_at": "2026-09-04T14:11:17+00:00",
+   "ready_at": "2026-09-04T14:11:17+00:00",
+   "first_commit_at": "2026-09-04T14:10:54+00:00",
+   "merged_at": "2026-09-07T17:31:52+00:00",
+   "additions": 87,
+   "deletions": 16,
+   "changed_files": 6,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-04T14:15:15+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-04T14:18:54+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-04T15:56:10+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-07T16:35:46+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-07T17:16:10+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14385,
+   "title": "Consolidate Dependabot dependency updates",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14385",
+   "author": "moonbox3",
+   "is_bot": false,
+   "created_at": "2026-09-07T06:46:05+00:00",
+   "ready_at": "2026-09-07T07:22:11+00:00",
+   "first_commit_at": "2026-07-23T09:44:52+00:00",
+   "merged_at": "2026-09-07T10:03:54+00:00",
+   "additions": 5275,
+   "deletions": 4997,
+   "changed_files": 27,
+   "reviews": [
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-07T07:15:21+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-07T07:26:51+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-07T07:45:03+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-07T07:45:05+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-07T09:46:27+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14384,
+   "title": "Update to use ci yaml",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14384",
+   "author": "moonbox3",
+   "is_bot": false,
+   "created_at": "2026-09-07T05:58:19+00:00",
+   "ready_at": "2026-09-07T05:58:19+00:00",
+   "first_commit_at": "2026-09-07T05:56:55+00:00",
+   "merged_at": "2026-09-07T06:16:26+00:00",
+   "additions": 1,
+   "deletions": 0,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-07T06:00:32+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-07T06:03:57+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-07T06:15:33+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14372,
+   "title": "Fix magentic ledger bug",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14372",
+   "author": "westey-m",
+   "is_bot": false,
+   "created_at": "2026-09-03T18:37:50+00:00",
+   "ready_at": "2026-09-03T18:37:50+00:00",
+   "first_commit_at": "2026-09-03T18:36:41+00:00",
+   "merged_at": "2026-09-04T10:30:54+00:00",
+   "additions": 43,
+   "deletions": 3,
+   "changed_files": 2,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-03T18:41:31+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-03T18:45:52+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-03T18:58:47+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-03T18:58:55+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-04T08:55:33+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-04T10:12:06+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14370,
+   "title": ".NET: Bump package version to 1.80.1",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14370",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-09-03T15:33:01+00:00",
+   "ready_at": "2026-09-03T15:33:01+00:00",
+   "first_commit_at": "2026-09-03T15:32:40+00:00",
+   "merged_at": "2026-09-03T16:59:46+00:00",
+   "additions": 2,
+   "deletions": 2,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-03T15:34:40+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-03T15:37:46+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-03T15:48:26+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-03T16:41:54+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14360,
+   "title": "Python: update dependencies",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14360",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-09-02T09:14:18+00:00",
+   "ready_at": "2026-09-02T09:14:18+00:00",
+   "first_commit_at": "2026-09-01T23:58:43+00:00",
+   "merged_at": "2026-09-03T15:17:08+00:00",
+   "additions": 1044,
+   "deletions": 301,
+   "changed_files": 9,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-02T09:17:54+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-02T09:22:50+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-02T09:40:37+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-02T18:45:07+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-03T15:10:28+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14363,
+   "title": "Python: Temporarily disable Bedrock integration tests",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14363",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-09-02T19:40:58+00:00",
+   "ready_at": "2026-09-02T19:40:58+00:00",
+   "first_commit_at": "2026-09-02T19:40:47+00:00",
+   "merged_at": "2026-09-03T01:07:56+00:00",
+   "additions": 11,
+   "deletions": 5,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-02T19:44:27+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-02T19:48:23+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-03T01:07:08+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14353,
+   "title": ".NET: update SDK to 10.0.303",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14353",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-09-01T09:52:59+00:00",
+   "ready_at": "2026-09-01T09:52:59+00:00",
+   "first_commit_at": "2026-09-01T09:52:36+00:00",
+   "merged_at": "2026-09-01T15:26:22+00:00",
+   "additions": 1,
+   "deletions": 1,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-01T09:54:36+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-01T09:58:01+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-01T10:07:18+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-01T10:23:24+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14354,
+   "title": ".NET: Remove retired OpenAI Assistants integration tests",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14354",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-09-01T12:32:02+00:00",
+   "ready_at": "2026-09-01T12:32:02+00:00",
+   "first_commit_at": "2026-09-01T12:13:22+00:00",
+   "merged_at": "2026-09-01T14:02:40+00:00",
+   "additions": 2,
+   "deletions": 724,
+   "changed_files": 11,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-01T12:34:16+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-09-01T12:38:23+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-01T13:00:56+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-09-01T13:24:20+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14352,
+   "title": "Python: update MCP OAuth sample dependencies",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14352",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-08-31T10:38:31+00:00",
+   "ready_at": "2026-08-31T10:38:31+00:00",
+   "first_commit_at": "2026-08-31T10:38:06+00:00",
+   "merged_at": "2026-08-31T15:36:31+00:00",
+   "additions": 142,
+   "deletions": 121,
+   "changed_files": 3,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-31T10:44:07+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-31T10:49:02+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-31T11:51:41+00:00"
+    },
+    {
+     "author": "baywet",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-31T14:41:13+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-31T15:27:09+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14342,
+   "title": "tests: refactors redirection tests to avoid race condition",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14342",
+   "author": "baywet",
+   "is_bot": false,
+   "created_at": "2026-08-26T15:59:08+00:00",
+   "ready_at": "2026-08-26T16:45:44+00:00",
+   "first_commit_at": "2026-08-26T15:58:06+00:00",
+   "merged_at": "2026-08-27T16:07:54+00:00",
+   "additions": 129,
+   "deletions": 71,
+   "changed_files": 3,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T16:48:30+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T17:12:40+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T17:27:10+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-27T12:58:12+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14343,
+   "title": "chore: fixes typos",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14343",
+   "author": "baywet",
+   "is_bot": false,
+   "created_at": "2026-08-26T16:42:18+00:00",
+   "ready_at": "2026-08-26T16:44:39+00:00",
+   "first_commit_at": "2026-08-26T16:41:50+00:00",
+   "merged_at": "2026-08-27T16:07:36+00:00",
+   "additions": 30,
+   "deletions": 29,
+   "changed_files": 21,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T16:47:40+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T16:57:59+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-26T17:56:24+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-27T12:56:35+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-27T13:21:39+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-27T14:13:56+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14345,
+   "title": "ci: updates aws credential task to fix node20 retirement for GHA",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14345",
+   "author": "baywet",
+   "is_bot": false,
+   "created_at": "2026-08-27T13:35:43+00:00",
+   "ready_at": "2026-08-27T13:35:43+00:00",
+   "first_commit_at": "2026-08-27T13:34:38+00:00",
+   "merged_at": "2026-08-27T14:09:39+00:00",
+   "additions": 1,
+   "deletions": 1,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-27T13:38:38+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-27T13:39:57+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-27T14:02:27+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14340,
+   "title": "chore: bumps the OpenAPI dependencies to the latest versions",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14340",
+   "author": "baywet",
+   "is_bot": false,
+   "created_at": "2026-08-26T14:42:34+00:00",
+   "ready_at": "2026-08-26T14:42:34+00:00",
+   "first_commit_at": "2026-08-26T14:41:54+00:00",
+   "merged_at": "2026-08-27T16:36:04+00:00",
+   "additions": 4,
+   "deletions": 4,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T14:46:10+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-26T14:48:38+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T14:50:41+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T14:58:15+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-26T15:18:53+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14341,
+   "title": "ci: removes extraneous nuget.config file",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14341",
+   "author": "baywet",
+   "is_bot": false,
+   "created_at": "2026-08-26T15:00:15+00:00",
+   "ready_at": "2026-08-26T15:00:15+00:00",
+   "first_commit_at": "2026-08-26T16:15:40+00:00",
+   "merged_at": "2026-08-27T16:36:19+00:00",
+   "additions": 0,
+   "deletions": 15,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T15:02:39+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T15:56:51+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-26T16:17:42+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T16:19:54+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-27T13:45:08+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14333,
+   "title": "Update CommunityToolkit VectorData package names",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14333",
+   "author": "copilot-swe-agent",
+   "is_bot": true,
+   "created_at": "2026-08-26T09:23:44+00:00",
+   "ready_at": "2026-08-26T09:49:19+00:00",
+   "first_commit_at": "2026-08-26T08:59:55+00:00",
+   "merged_at": "2026-08-26T16:23:25+00:00",
+   "additions": 35,
+   "deletions": 35,
+   "changed_files": 12,
+   "reviews": [
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-26T09:52:35+00:00"
+    },
+    {
+     "author": "roji",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-26T09:52:49+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T09:55:39+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T09:56:43+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T13:57:39+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T14:00:47+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T14:05:18+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T14:05:19+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T14:08:26+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T14:15:29+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T14:20:13+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T14:23:58+00:00"
+    },
+    {
+     "author": "roji",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-26T15:47:00+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14307,
+   "title": "Pin GitHub Actions to full-length commit SHAs",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14307",
+   "author": "danfiedler-msft",
+   "is_bot": false,
+   "created_at": "2026-08-19T18:21:36+00:00",
+   "ready_at": "2026-08-19T18:21:36+00:00",
+   "first_commit_at": "2026-08-19T18:21:29+00:00",
+   "merged_at": "2026-08-26T11:54:35+00:00",
+   "additions": 89,
+   "deletions": 87,
+   "changed_files": 21,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-19T18:27:16+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-20T10:04:46+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-20T10:08:37+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-20T16:06:49+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14332,
+   "title": "Switch failing test to new model.",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14332",
+   "author": "westey-m",
+   "is_bot": false,
+   "created_at": "2026-08-26T09:13:14+00:00",
+   "ready_at": "2026-08-26T09:13:14+00:00",
+   "first_commit_at": "2026-08-26T09:12:03+00:00",
+   "merged_at": "2026-08-26T10:59:30+00:00",
+   "additions": 6,
+   "deletions": 8,
+   "changed_files": 4,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T09:15:06+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-26T09:17:38+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T09:18:05+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T09:54:56+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T09:56:06+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-26T10:00:16+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-26T10:02:50+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-26T10:15:21+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-26T10:42:45+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14306,
+   "title": "Python: [Breaking] Remove unsupported service auth mode from Copilot Studio agent",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14306",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-08-19T11:55:37+00:00",
+   "ready_at": "2026-08-19T11:55:37+00:00",
+   "first_commit_at": "2026-08-19T11:54:42+00:00",
+   "merged_at": "2026-08-20T10:36:33+00:00",
+   "additions": 13,
+   "deletions": 140,
+   "changed_files": 5,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-19T11:57:43+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-19T12:03:52+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-19T14:14:41+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-19T14:19:10+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-19T15:16:08+00:00"
+    },
+    {
+     "author": "giles17",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-19T17:47:47+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14301,
+   "title": ".NET: Bump package version to 1.80.0",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14301",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-08-18T11:54:19+00:00",
+   "ready_at": "2026-08-18T11:54:19+00:00",
+   "first_commit_at": "2026-08-18T11:54:00+00:00",
+   "merged_at": "2026-08-18T14:07:36+00:00",
+   "additions": 4,
+   "deletions": 67,
+   "changed_files": 2,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-18T11:57:33+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-18T12:01:00+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-18T13:18:11+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-18T13:50:38+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14293,
+   "title": ".NET: [Breaking] Update OpenAPI HTTP client defaults",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14293",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-08-17T12:08:29+00:00",
+   "ready_at": "2026-08-17T12:08:29+00:00",
+   "first_commit_at": "2026-08-17T12:08:16+00:00",
+   "merged_at": "2026-08-18T11:39:52+00:00",
+   "additions": 159,
+   "deletions": 19,
+   "changed_files": 7,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-17T12:13:03+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-17T12:19:35+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-17T12:50:07+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-17T12:53:17+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-17T23:23:39+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-18T09:13:46+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-18T11:18:31+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14294,
+   "title": ".NET: Bump Testcontainers packages",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14294",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-08-17T13:30:02+00:00",
+   "ready_at": "2026-08-17T13:30:02+00:00",
+   "first_commit_at": "2026-08-17T13:20:59+00:00",
+   "merged_at": "2026-08-18T09:38:50+00:00",
+   "additions": 2,
+   "deletions": 2,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-17T13:33:21+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-17T17:19:18+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-18T09:12:22+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14183,
+   "title": ".Net: Honor FunctionChoiceBehavior function list in Gemini connector",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14183",
+   "author": "giles17",
+   "is_bot": false,
+   "created_at": "2026-07-24T00:50:25+00:00",
+   "ready_at": "2026-07-24T01:08:52+00:00",
+   "first_commit_at": "2026-07-24T00:48:03+00:00",
+   "merged_at": "2026-08-11T17:05:11+00:00",
+   "additions": 318,
+   "deletions": 53,
+   "changed_files": 5,
+   "reviews": [
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-24T00:56:41+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-24T00:57:25+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-24T01:18:42+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-04T10:07:55+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-11T15:33:51+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14283,
+   "title": ".Net: Bump CommunityToolkit.VectorData.InMemory and System.Numerics.Tensors",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14283",
+   "author": "dependabot",
+   "is_bot": true,
+   "created_at": "2026-08-10T22:51:04+00:00",
+   "ready_at": "2026-08-10T22:51:04+00:00",
+   "first_commit_at": "2026-08-10T22:51:03+00:00",
+   "merged_at": "2026-08-11T10:58:14+00:00",
+   "additions": 2,
+   "deletions": 2,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-10T22:51:27+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-10T22:53:13+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-11T10:28:09+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-11T10:40:30+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14193,
+   "title": "remove migrated .NET MEVD providers, add redirect READMEs",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14193",
+   "author": "copilot-swe-agent",
+   "is_bot": true,
+   "created_at": "2026-07-24T18:03:05+00:00",
+   "ready_at": "2026-07-24T19:33:22+00:00",
+   "first_commit_at": "2026-07-24T18:02:12+00:00",
+   "merged_at": "2026-08-10T14:08:40+00:00",
+   "additions": 12,
+   "deletions": 60449,
+   "changed_files": 612,
+   "reviews": [
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-24T18:13:21+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-24T19:33:09+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-24T19:33:29+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-10T13:07:56+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-10T13:40:41+00:00"
+    },
+    {
+     "author": "roji",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-10T13:46:14+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14277,
+   "title": "Python: Bump Python version to 1.44.1 for a release",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14277",
+   "author": "moonbox3",
+   "is_bot": false,
+   "created_at": "2026-08-06T06:17:16+00:00",
+   "ready_at": "2026-08-06T06:17:16+00:00",
+   "first_commit_at": "2026-08-06T06:16:37+00:00",
+   "merged_at": "2026-08-06T09:52:55+00:00",
+   "additions": 1,
+   "deletions": 1,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-06T06:19:17+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-06T06:19:26+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-06T08:45:21+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14275,
+   "title": ".NET: Bump package version to 1.79.0",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14275",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-08-05T18:17:13+00:00",
+   "ready_at": "2026-08-05T18:17:13+00:00",
+   "first_commit_at": "2026-08-05T18:17:01+00:00",
+   "merged_at": "2026-08-05T19:05:31+00:00",
+   "additions": 2,
+   "deletions": 2,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-05T18:18:13+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-05T18:18:28+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-05T18:19:12+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-05T18:47:36+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14270,
+   "title": "Python: Document x5t certificate thumbprint hashing in Copilot Studio agent",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14270",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-08-04T19:35:55+00:00",
+   "ready_at": "2026-08-04T19:35:55+00:00",
+   "first_commit_at": "2026-08-04T19:35:08+00:00",
+   "merged_at": "2026-08-05T15:54:13+00:00",
+   "additions": 4,
+   "deletions": 1,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-04T19:38:26+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-08-04T19:39:32+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-05T02:13:29+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-05T11:34:56+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-08-05T15:07:52+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14234,
+   "title": "Bump form-data from 4.0.5 to 4.0.6 in ProcessFrameworkWithSignalR React frontend",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14234",
+   "author": "giles17",
+   "is_bot": false,
+   "created_at": "2026-07-28T22:17:32+00:00",
+   "ready_at": "2026-07-28T22:39:45+00:00",
+   "first_commit_at": "2026-07-28T22:17:02+00:00",
+   "merged_at": "2026-07-30T19:19:06+00:00",
+   "additions": 17,
+   "deletions": 13,
+   "changed_files": 2,
+   "reviews": [
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T22:19:18+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T22:19:54+00:00"
+    },
+    {
+     "author": "giles17",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T22:23:00+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T22:25:19+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T22:26:33+00:00"
+    },
+    {
+     "author": "giles17",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T22:39:21+00:00"
+    },
+    {
+     "author": "giles17",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T22:39:23+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T22:42:12+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T22:43:23+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-29T03:17:53+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-29T08:40:40+00:00"
+    },
+    {
+     "author": "TaoChenOSU",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-29T20:47:54+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-30T19:01:19+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14235,
+   "title": "Bump .NET SDK from 10.0.301 to 10.0.302",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14235",
+   "author": "giles17",
+   "is_bot": false,
+   "created_at": "2026-07-28T23:02:25+00:00",
+   "ready_at": "2026-07-28T23:02:25+00:00",
+   "first_commit_at": "2026-07-28T23:00:36+00:00",
+   "merged_at": "2026-07-30T19:19:06+00:00",
+   "additions": 1,
+   "deletions": 1,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T23:03:45+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T23:07:40+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-29T03:16:39+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-29T08:41:12+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-30T19:01:52+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14236,
+   "title": "Python: Skip MCP tools and prompts whose normalized names collide",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14236",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-07-29T10:27:19+00:00",
+   "ready_at": "2026-07-29T10:27:19+00:00",
+   "first_commit_at": "2026-07-29T10:26:50+00:00",
+   "merged_at": "2026-07-29T16:43:50+00:00",
+   "additions": 121,
+   "deletions": 0,
+   "changed_files": 2,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-29T10:30:05+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-29T10:31:40+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-29T12:44:10+00:00"
+    },
+    {
+     "author": "giles17",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-29T16:36:48+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14222,
+   "title": "Consolidate Python and .NET dependency updates",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14222",
+   "author": "moonbox3",
+   "is_bot": false,
+   "created_at": "2026-07-28T02:38:08+00:00",
+   "ready_at": "2026-07-29T03:58:01+00:00",
+   "first_commit_at": "2026-07-28T02:36:37+00:00",
+   "merged_at": "2026-07-29T10:43:14+00:00",
+   "additions": 345,
+   "deletions": 273,
+   "changed_files": 4,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-29T04:01:00+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-29T04:01:58+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-29T08:10:33+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-29T08:35:08+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14210,
+   "title": "Python: [Breaking] Add MCP tool approval callback for Azure AI Agent",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14210",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-07-27T18:25:48+00:00",
+   "ready_at": "2026-07-27T18:25:48+00:00",
+   "first_commit_at": "2026-07-27T18:25:34+00:00",
+   "merged_at": "2026-07-28T18:22:05+00:00",
+   "additions": 395,
+   "deletions": 21,
+   "changed_files": 6,
+   "reviews": [
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-27T18:28:29+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-27T18:29:10+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-27T18:36:23+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-28T08:59:45+00:00"
+    },
+    {
+     "author": "giles17",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-28T18:15:12+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14223,
+   "title": "Suppress CodeQL false positive in internal HTTP utility",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14223",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-07-28T10:41:27+00:00",
+   "ready_at": "2026-07-28T10:41:27+00:00",
+   "first_commit_at": "2026-07-28T10:41:08+00:00",
+   "merged_at": "2026-07-28T15:51:02+00:00",
+   "additions": 1,
+   "deletions": 1,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T10:43:21+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T11:06:24+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-28T11:31:57+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-28T14:44:37+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14224,
+   "title": "Update Microsoft.AspNetCore.OData to 9.5.0",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14224",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-07-28T12:05:54+00:00",
+   "ready_at": "2026-07-28T12:05:54+00:00",
+   "first_commit_at": "2026-07-28T12:04:16+00:00",
+   "merged_at": "2026-07-28T15:40:01+00:00",
+   "additions": 4,
+   "deletions": 1,
+   "changed_files": 2,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T12:08:14+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T12:11:02+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T12:20:04+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-28T12:20:15+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-28T14:45:55+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-28T15:23:00+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14201,
+   "title": ".NET: Harden dotnet-format workflow shell handling",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14201",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-07-27T16:53:49+00:00",
+   "ready_at": "2026-07-27T16:53:49+00:00",
+   "first_commit_at": "2026-07-27T16:53:34+00:00",
+   "merged_at": "2026-07-27T18:08:11+00:00",
+   "additions": 11,
+   "deletions": 4,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-27T16:56:24+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-27T16:57:19+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-27T17:05:01+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-27T17:38:02+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-27T18:02:36+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14182,
+   "title": "Fix cosmosdb vectorstore bug",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14182",
+   "author": "westey-m",
+   "is_bot": false,
+   "created_at": "2026-07-23T16:08:01+00:00",
+   "ready_at": "2026-07-23T16:08:01+00:00",
+   "first_commit_at": "2026-07-23T16:07:35+00:00",
+   "merged_at": "2026-07-27T11:43:06+00:00",
+   "additions": 306,
+   "deletions": 94,
+   "changed_files": 3,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-23T16:11:33+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-23T16:13:04+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-23T17:01:49+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-23T17:12:35+00:00"
+    },
+    {
+     "author": "giles17",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-23T19:59:07+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14112,
+   "title": ".Net: [.NET] Add TimeProvider injection to TimePlugin for deterministic testing",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14112",
+   "author": "grvnmttl",
+   "is_bot": false,
+   "created_at": "2026-06-23T04:13:55+00:00",
+   "ready_at": "2026-06-23T04:13:55+00:00",
+   "first_commit_at": "2026-06-23T04:04:28+00:00",
+   "merged_at": "2026-07-22T10:28:46+00:00",
+   "additions": 163,
+   "deletions": 64,
+   "changed_files": 4,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-06-23T04:17:31+00:00"
+    },
+    {
+     "author": "grvnmttl",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-06-23T04:30:00+00:00"
+    },
+    {
+     "author": "grvnmttl",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-06-23T04:30:01+00:00"
+    },
+    {
+     "author": "grvnmttl",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-06-23T04:30:02+00:00"
+    },
+    {
+     "author": "grvnmttl",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-06-23T04:30:03+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-21T18:26:07+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-21T18:42:15+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14170,
+   "title": "Migrate VectorStoreRAG and Concepts samples to CommunityToolkit.VectorData packages",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14170",
+   "author": "copilot-swe-agent",
+   "is_bot": true,
+   "created_at": "2026-07-20T17:27:31+00:00",
+   "ready_at": "2026-07-22T12:35:26+00:00",
+   "first_commit_at": "2026-07-20T17:26:34+00:00",
+   "merged_at": "2026-07-24T17:30:13+00:00",
+   "additions": 153,
+   "deletions": 186,
+   "changed_files": 56,
+   "reviews": [
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T12:40:49+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T12:44:45+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T12:44:46+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T12:44:46+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T12:44:46+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T12:51:13+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T12:52:23+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T13:10:57+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T13:18:39+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T13:21:38+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T13:50:16+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T14:15:22+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T14:31:51+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T14:36:00+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T14:53:36+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-21T15:26:03+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-22T11:51:01+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-22T11:56:23+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-22T11:56:23+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-22T11:56:23+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-22T11:56:23+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-22T11:56:23+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-22T11:58:42+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-22T11:58:55+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-22T12:35:58+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-22T12:43:10+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-22T13:32:23+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-22T13:32:30+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-24T15:00:05+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-24T15:05:37+00:00"
+    },
+    {
+     "author": "adamsitnik",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-24T15:25:27+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-24T15:28:47+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-24T15:28:56+00:00"
+    },
+    {
+     "author": "copilot-swe-agent",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-24T15:29:30+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-24T16:16:22+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-24T16:16:30+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14176,
+   "title": "Consolidate Dependabot dependency updates",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14176",
+   "author": "moonbox3",
+   "is_bot": false,
+   "created_at": "2026-07-23T00:07:30+00:00",
+   "ready_at": "2026-07-23T01:41:33+00:00",
+   "first_commit_at": "2025-09-16T22:01:49+00:00",
+   "merged_at": "2026-07-23T08:51:25+00:00",
+   "additions": 2055,
+   "deletions": 2656,
+   "changed_files": 22,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-23T01:46:19+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-23T02:11:51+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-23T04:36:25+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-23T04:36:26+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-23T04:36:27+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-23T04:36:28+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-23T06:04:21+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-23T08:09:48+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14166,
+   "title": ".Net: Reject mixed-separator UNC paths in file plugins",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14166",
+   "author": "jstar0",
+   "is_bot": false,
+   "created_at": "2026-07-18T14:55:07+00:00",
+   "ready_at": "2026-07-18T14:55:07+00:00",
+   "first_commit_at": "2026-07-18T09:57:50+00:00",
+   "merged_at": "2026-07-20T21:18:33+00:00",
+   "additions": 88,
+   "deletions": 9,
+   "changed_files": 4,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-18T14:59:00+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-20T12:01:23+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-20T12:01:25+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-20T12:01:55+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-20T12:49:47+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-20T15:41:51+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14169,
+   "title": ".Net: [BREAKING] Upgrade Prompty.Core to 2.0.0-beta.3 to resolve NU1903 vulnerability",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14169",
+   "author": "rogerbarreto",
+   "is_bot": false,
+   "created_at": "2026-07-20T15:48:54+00:00",
+   "ready_at": "2026-07-20T15:48:54+00:00",
+   "first_commit_at": "2026-07-20T15:48:15+00:00",
+   "merged_at": "2026-07-20T17:25:07+00:00",
+   "additions": 133,
+   "deletions": 182,
+   "changed_files": 10,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-20T15:52:49+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-20T16:05:40+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-20T16:05:41+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-20T16:35:52+00:00"
+    },
+    {
+     "author": "peibekwe",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-20T17:07:04+00:00"
+    }
+   ]
+  },
+  {
+   "number": 13925,
+   "title": ".Net: fix: address three static analysis issues (audio format, text search, KernelProcess)",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/13925",
+   "author": "octo-patch",
+   "is_bot": false,
+   "created_at": "2026-04-28T02:31:03+00:00",
+   "ready_at": "2026-04-28T02:31:03+00:00",
+   "first_commit_at": "2026-04-28T02:29:58+00:00",
+   "merged_at": "2026-07-09T17:21:43+00:00",
+   "additions": 160,
+   "deletions": 9,
+   "changed_files": 6,
+   "reviews": [
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-04-28T02:35:54+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-04-29T16:02:06+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-09T15:52:35+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-09T16:31:43+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14146,
+   "title": "Encode OpenAPI server variable values",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14146",
+   "author": "eavanvalkenburg",
+   "is_bot": false,
+   "created_at": "2026-07-09T07:27:50+00:00",
+   "ready_at": "2026-07-09T07:27:50+00:00",
+   "first_commit_at": "2026-07-09T07:27:33+00:00",
+   "merged_at": "2026-07-09T17:01:47+00:00",
+   "additions": 87,
+   "deletions": 4,
+   "changed_files": 2,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-09T07:29:55+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-09T07:34:52+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-09T07:34:54+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-09T07:40:16+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-09T13:35:53+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14122,
+   "title": ".Net: feat(ollama): add Think property to OllamaPromptExecutionSettings",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14122",
+   "author": "arashzjahangiri",
+   "is_bot": false,
+   "created_at": "2026-06-28T11:28:02+00:00",
+   "ready_at": "2026-06-28T11:28:02+00:00",
+   "first_commit_at": "2026-06-28T11:27:23+00:00",
+   "merged_at": "2026-07-09T13:59:50+00:00",
+   "additions": 120,
+   "deletions": 2,
+   "changed_files": 5,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-06-28T11:31:26+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-09T13:10:29+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-09T13:41:56+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14142,
+   "title": ".Net: Update package version to 1.78.0",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14142",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-07-07T09:32:57+00:00",
+   "ready_at": "2026-07-07T09:32:57+00:00",
+   "first_commit_at": "2026-07-07T09:32:33+00:00",
+   "merged_at": "2026-07-07T11:13:53+00:00",
+   "additions": 2,
+   "deletions": 44,
+   "changed_files": 2,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-07T09:34:02+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-07T09:34:38+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-07T10:01:45+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-07T10:58:04+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14141,
+   "title": "Python: Bump Python version to 1.44.0 for a release",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14141",
+   "author": "moonbox3",
+   "is_bot": false,
+   "created_at": "2026-07-07T02:20:46+00:00",
+   "ready_at": "2026-07-07T02:20:46+00:00",
+   "first_commit_at": "2026-07-07T02:19:54+00:00",
+   "merged_at": "2026-07-07T08:52:05+00:00",
+   "additions": 1,
+   "deletions": 1,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-07T02:22:21+00:00"
+    },
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-07T02:53:46+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-07T08:44:03+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-07T08:45:21+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14135,
+   "title": "Python: [Breaking] Update runtime handling",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14135",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-07-03T18:43:54+00:00",
+   "ready_at": "2026-07-03T18:43:54+00:00",
+   "first_commit_at": "2026-07-03T18:43:34+00:00",
+   "merged_at": "2026-07-07T03:28:48+00:00",
+   "additions": 171,
+   "deletions": 22,
+   "changed_files": 7,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-03T18:45:57+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-03T18:48:33+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-06T01:28:41+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-06T08:42:10+00:00"
+    },
+    {
+     "author": "TaoChenOSU",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-06T17:12:19+00:00"
+    },
+    {
+     "author": "moonbox3",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-07T03:17:38+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14140,
+   "title": "Python: OpenApi: Harden operation path handling for consistent selection and request targeting (.Net & Python)",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14140",
+   "author": "rogerbarreto",
+   "is_bot": false,
+   "created_at": "2026-07-06T13:52:57+00:00",
+   "ready_at": "2026-07-06T13:52:57+00:00",
+   "first_commit_at": "2026-07-06T13:13:28+00:00",
+   "merged_at": "2026-07-06T16:59:24+00:00",
+   "additions": 461,
+   "deletions": 6,
+   "changed_files": 7,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-06T13:57:05+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-06T13:59:13+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-06T14:13:41+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-06T14:34:15+00:00"
+    },
+    {
+     "author": "eavanvalkenburg",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-06T15:04:47+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-06T16:43:24+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14132,
+   "title": ".Net: Disable automatic HTTP redirects in HttpPlugin and WebFileDownloadPlugin default clients",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14132",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-07-01T15:22:42+00:00",
+   "ready_at": "2026-07-01T15:22:42+00:00",
+   "first_commit_at": "2026-06-30T14:51:30+00:00",
+   "merged_at": "2026-07-02T17:14:55+00:00",
+   "additions": 146,
+   "deletions": 10,
+   "changed_files": 5,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-01T15:27:32+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-01T15:39:22+00:00"
+    },
+    {
+     "author": "SergeyMenshykh",
+     "is_bot": false,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-01T15:39:31+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-02T09:56:15+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-02T16:59:42+00:00"
+    }
+   ]
+  },
+  {
+   "number": 14133,
+   "title": "Bump Scriban from 7.2.0 to 7.2.5 to fix NU1902 vulnerability",
+   "url": "https://github.com/microsoft/semantic-kernel/pull/14133",
+   "author": "SergeyMenshykh",
+   "is_bot": false,
+   "created_at": "2026-07-01T15:53:08+00:00",
+   "ready_at": "2026-07-01T15:53:08+00:00",
+   "first_commit_at": "2026-07-01T15:45:03+00:00",
+   "merged_at": "2026-07-01T19:01:10+00:00",
+   "additions": 1,
+   "deletions": 1,
+   "changed_files": 1,
+   "reviews": [
+    {
+     "author": "copilot-pull-request-reviewer",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-01T15:54:13+00:00"
+    },
+    {
+     "author": "westey-m",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-01T16:24:58+00:00"
+    },
+    {
+     "author": "rogerbarreto",
+     "is_bot": false,
+     "state": "APPROVED",
+     "submitted_at": "2026-07-01T16:27:04+00:00"
+    },
+    {
+     "author": "github-actions",
+     "is_bot": true,
+     "state": "COMMENTED",
+     "submitted_at": "2026-07-01T17:56:22+00:00"
+    }
+   ]
+  }
+ ]
+}
