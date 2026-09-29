@@ -92,7 +92,12 @@ def style_fig(fig: go.Figure, height: int = 260) -> go.Figure:
 # ---------------------------------------------------------------- sidebar
 with st.sidebar:
     st.header("Data source")
-    snapshot_files = sorted(SAMPLES.glob("*.json")) if SAMPLES.exists() else []
+    # Team repos with a real review process first; others alphabetically.
+    FEATURED = ["microsoft__semantic-kernel"]
+    snapshot_files = sorted(
+        SAMPLES.glob("*.json") if SAMPLES.exists() else [],
+        key=lambda p: (p.stem not in FEATURED, p.stem.lower()),
+    )
     options = ["Simulated team (demo)"]
     if snapshot_files:
         options.insert(0, "Saved snapshot")
@@ -169,7 +174,11 @@ if st.session_state.get("report_key") != report_key:
     st.session_state.report_key = report_key
 
 s = a.signals
-sub = f"Last {a.days} days · {s['prs_analyzed']} merged PRs"
+span_days = (s["newest_merge"] - s["oldest_merge"]).days + 1
+if span_days < a.days - 7:
+    sub = f"{s['oldest_merge']:%b %d} to {s['newest_merge']:%b %d} (most recent PRs) · {s['prs_analyzed']} merged PRs"
+else:
+    sub = f"Last {a.days} days · {s['prs_analyzed']} merged PRs"
 if a.excluded_bots:
     sub += f" · {a.excluded_bots} bot PRs excluded"
 if L.get("captured"):
@@ -185,12 +194,12 @@ if L["is_sim"]:
 # ---------------------------------------------------------------- KPIs
 st_row = a.stages.set_index("stage")
 c1, c2, c3, c4 = st.columns(4)
-c1.metric("Median lead time", fmt_h(s["median_lead_time_h"]), help="First commit to merge, typical PR")
-c2.metric("Flow efficiency", f"{s['flow_efficiency'] * 100:.0f}%", help="Share of lead time spent actively building")
-weeks = max(a.days / 7, 1)
-c3.metric("Throughput", f"{s['prs_analyzed'] / weeks:.0f} PRs/wk", help="Merged human-authored PRs per week")
+c1.metric("Lead time", fmt_h(s["median_lead_time_h"]), help="First commit to merge, typical PR")
+c2.metric("Flow efficiency", f"{s['flow_efficiency'] * 100:.0f}%", help="Share of flow time spent actively building (the Coding stage)")
+weeks = max(min(a.days, span_days) / 7, 1)
+c3.metric("PRs / week", f"{s['prs_analyzed'] / weeks:.0f}", help="Merged human-authored PRs per week (throughput)")
 if a.mode == "direct":
-    c4.metric("Reviewed PRs", f"{(1 - s['unreviewed_rate']) * 100:.0f}%", help="Share of merged PRs with a human review")
+    c4.metric("Reviewed", f"{s['prs_reviewed']} of {s['prs_analyzed']}", help="Merged PRs with a human review")
     st.warning(
         f"**No review gate detected.** Only {s['prs_reviewed']} of {s['prs_analyzed']} PRs had a human review, "
         "too few to measure review flow honestly. Showing open-to-merge flow and who carries the work instead."

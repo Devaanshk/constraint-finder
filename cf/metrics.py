@@ -181,8 +181,6 @@ def analyze(records: list[dict[str, Any]], repo: str, days: int, include_bots: b
     large = by_size.get("Large (500+ lines)")
 
     lead = df["lead_time"].dropna()
-    coding_total = base["coding"].fillna(0).sum()
-    lead_total = base["lead_time"].fillna(0).sum() or 1.0
 
     signals = {
         "prs_analyzed": int(len(df)),
@@ -191,8 +189,9 @@ def analyze(records: list[dict[str, Any]], repo: str, days: int, include_bots: b
         "rework_rate": float(reviewed["rework"].mean()) if len(reviewed) else 0.0,
         "median_lead_time_h": float(lead.median()) if len(lead) else 0.0,
         "p85_lead_time_h": float(lead.quantile(0.85)) if len(lead) else 0.0,
-        # Flow efficiency: share of elapsed time spent actively building.
-        "flow_efficiency": float(coding_total / lead_total),
+        # Flow efficiency: share of elapsed time spent actively building. Taken from
+        # the same stage table as the cards so the two numbers always agree.
+        "flow_efficiency": float(stages.set_index("stage").loc["coding", "share"]),
         "authors": int(df["author"].nunique()),
         "top_author": top_author,
         "top_author_share": top_author_share,
@@ -208,6 +207,8 @@ def analyze(records: list[dict[str, Any]], repo: str, days: int, include_bots: b
         "large_pr_share": float((base["size"] >= 500).mean()),
         "median_pr_size": float(df["size"].median()),
         "base_prs": int(len(base)),
+        "oldest_merge": df["merged_at"].min(),
+        "newest_merge": df["merged_at"].max(),
     }
 
     weekly = (
